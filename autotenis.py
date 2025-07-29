@@ -12,8 +12,8 @@ driver = webdriver.Chrome()
 ##Login kismi
 driver.get("https://online.spor.istanbul/uyegiris")
 
-driver.find_element(By.ID, "txtTCPasaport").send_keys("19784256664") 
-driver.find_element(By.ID, "txtSifre").send_keys("06841297")        
+driver.find_element(By.ID, "txtTCPasaport").send_keys("tc") 
+driver.find_element(By.ID, "txtSifre").send_keys("password")        
 
 driver.find_element(By.ID, "btnGirisYap").click()
 
